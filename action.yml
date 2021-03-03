@@ -1,5 +1,5 @@
 name: 'my first container action'
-description: 'Amir Shkedy's container action'
+description: 'Amir Shkedys container action'
 author: 'Amir Shkedy'
 inputs:
   myInput:
