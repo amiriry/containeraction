@@ -1,6 +1,6 @@
 name: 'my first container action'
 description: 'Amir Shkedy's container action'
-auther: 'Amir Shkedy'
+author: 'Amir Shkedy'
 inputs:
   myInput:
     description: 'greeting to use'
@@ -9,6 +9,6 @@ inputs:
 outputs:
   myOutput:
     description: 'total memory'
- runs:
-   using: 'docker' # container action
-   image: 'Dockerfile' # Use the image in the Dockerfile
+runs:
+  using: 'docker' # container action
+  image: 'Dockerfile' # Use the image in the Dockerfile
